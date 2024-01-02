@@ -425,9 +425,9 @@ const arrayExtensions = {
                     adm.atom.reportObserved()
                     return adm.dehanceValue(adm.values[index])
                 }
-                console.warn(
-                    `[mobx.array] Attempt to read an array index (${index}) that is out of bounds (${adm.values.length}). Please check length first. Out of bound indices will not be tracked by MobX`
-                )
+                // console.warn(
+                //     `[mobx.array] Attempt to read an array index (${index}) that is out of bounds (${adm.values.length}). Please check length first. Out of bound indices will not be tracked by MobX`
+                // )
             }
             return undefined
         },
